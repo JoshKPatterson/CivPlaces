@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CivPlaces</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' *; img-src * data: 'unsafe-inline'">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <script src="https://kit.fontawesome.com/86d9d4cfbc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="modal" class="modal">
+      <div class="modal-wrapper">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-content">Welcome to CivPlaces!</h1>
+            <i class="far fa-times-circle" id="close" onclick="closeModal()"></i>
+          </div>
+          <h2>If this is your first time here, please read this page!</h3>
+          <hr>
+          <h3>What is CivPlaces?</h2>
+          <p>CivPlaces is an interactive Google Maps based web application that takes users on a self-paced tour of all of the (existing and located) Natural Wonders of the World, featured in the video game series Sid Meyer's Civilization.</p>
+          <h3>How To Use</h2>
+          <p>To visit any of the natural wonders, simply click/tap on any of the blue buttons in the pop up menu. The wonders relevant to the selected category will fill in under the button, simply click/tap on the wonder you wish to visit and you will be taken there!</p>
+          <h3>Why aren't all of the games wonders listed?</h2>
+          <p>Understandably, there are a handful of natural wonders that either are believed to exist but have not been located, or are not believed to exist at all. If there is a wonder you were looking forward to seeing and it is not listed in this app, it is because the location has not been confirmed, whether it's existence is believed or not.</p>
+          <p>For example, wonders such as the Fountain of Youth, El Dorado, and King Solomon's mines are wonders that are not believed to really exist, while wonders such as Paititi are believed to actually exist despite no clear records of it's location</p>
+          <h3>I have some feedback/I found a bug!</h2>
+          <p>Wonderful! If you would like to submit either feedback on the website, or to report a bug you have found, <a href="/feedback">please click on this link</a> to be directed to the form. Thank you for helping to improve this website!</p>
+        </div>
+      </div>
+    </div>
+    <div id='container'>
+      <div id="menu" class="expanded">
+        <div id="box" class='open'>
+          <input type="checkbox" onchange='hamburger()'>
+          <span id="span1"></span>
+          <span id="span2"></span>
+          <span id="span3"></span>
+          <span id="span4"></span>
+        </div>
+        <div id="menuContent" class="expanded">
+          <h1 class="noselect">Civ Places</h1>
+          <div id="menuList">
+            <div id="list">
+              <button class="btn" onclick="drop1()"><h2>All Wonders</h2></button>
+              <ul class='DDcontent' id='allWondersDD'>
+                <% allwonders.forEach(wonders => { %>
+                  <li>
+                    <div class="placeCard" onclick='moveMap(<%= wonders.location.lat %>, <%= wonders.location.lng %>, <%= wonders.zoom %>)'>
+                      <img src="<%= wonders.img %>" alt="<%= wonders.name %>">
+                      <h2><%= wonders.name %></h2>
+                    </div>
+                  </li>
+                <% }) %>
+              </ul>
+              <button class="btn" onclick="drop2()"><h2>Civ VI Wonders</h2></button>
+              <ul class='DDcontent' id='c6WondersDD'>
+                
+                <% civ6wonders.forEach(wonders => { %>
+                  <li>
+                    <div class="placeCard" onclick='moveMap(<%= wonders.location.lat %>, <%= wonders.location.lng %>, <%= wonders.zoom %>)'>
+                      <img src="<%= wonders.img %>" alt="<%= wonders.name %>">
+                      <h2><%= wonders.name %></h2>
+                    </div>
+                  </li>
+                <% }) %>
+
+              </ul>
+              <button class="btn" onclick="drop3()"><h2>Civ V Wonders</h2></button>
+              <ul class='DDcontent' id='c5WondersDD'>
+                
+                <% civ5wonders.forEach(wonders => { %>
+                  <li>
+                    <div class="placeCard" onclick='moveMap(<%= wonders.location.lat %>, <%= wonders.location.lng %>, <%= wonders.zoom %>)'>
+                      <img src="<%= wonders.img %>" alt="<%= wonders.name %>">
+                      <h2><%= wonders.name %></h2>
+                    </div>
+                  </li>
+                <% }) %>
+
+              </ul>
+            </div>
+          </div>
+          <button id='helpButton' onclick="openModal()">Help</button>
+
+        </div>
+      </div>
+  
+    </div>
+    <div id="map"></div>
+    <script src="./scripts/mainScript.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=<%=apiKey%>&callback=initMap"></script>
+  </body>
+</html>

@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Bermuda Triangle",
+    "location": {
+      "lat": 25,
+      "lng": -71
+    },
+    "img": "./images/Bermuda_Triangle_(Civ6).png",
+    "zoom": 8,
+    "desc": "The Bermuda Triangle, also known as the Devil's Triangle or Hurricane Alley, is a loosely defined region in the western part of the North Atlantic Ocean where a number of aircraft and ships are said to have disappeared under mysterious circumstances. Most reputable sources dismiss the idea that there is any mystery."
+  },
+  {
+    "name": "Chocolate Hills",
+    "location": {
+      "lat": 9.8297,
+      "lng": 124.1397
+    },
+    "img": "./images/Chocolate_Hills_(Civ6).png",
+    "zoom": 16,
+    "desc": "The Chocolate Hills are a geological formation in the Bohol province of the Philippines. There are at least 1,260 hills but there may be as many as 1,776 hills spread over an area of more than 50 square kilometres (20 sq mi). They are covered in green grass that turns brown during the dry season, hence the name."
+  },
+  {
+    "name": "Cliffs of Dover",
+    "location": {
+      "lat": 51.1345,
+      "lng": 1.3573
+    },
+    "img": "./images/Cliffs_of_Dover_(Civ6).png",
+    "zoom": 16,
+    "desc": "The White Cliffs of Dover, part of the North Downs formation, is the region of English coastline facing the Strait of Dover and France. The cliff face, which reaches a height of 350 feet (110 m), owes its striking appearance to its composition of chalk accented by streaks of black flint. The cliffs, on both sides of the town of Dover in Kent, stretch for eight miles (13 km). A section of coastline encompassing the cliffs was purchased by the National Trust in 2016."
+  },
+  {
+    "name": "Crater Lake",
+    "location": {
+      "lat": 42.9446,
+      "lng": -122.1090
+    },
+    "img": "./images/Crater_Lake_(Civ6).png",
+    "zoom": 12,
+    "desc": "Crater Lake is a crater lake in south-central Oregon in the western United States. It is the main feature of Crater Lake National Park and is famous for its deep blue color and water clarity. The lake partly fills a nearly 2,148-foot (655 m)-deep caldera that was formed around 7,700 (± 150) years ago by the collapse of the volcano Mount Mazama. There are no rivers flowing into or out of the lake; the evaporation is compensated for by rain and snowfall at a rate such that the total amount of water is replaced every 250 years. With a depth of 1,949 feet (594 m), the lake is the deepest in the United States. In the world, it ranks ninth for maximum depth, and third for mean (average) depth"
+  },
+  {
+    "name": "Dead Sea",
+    "location": {
+      "lat": 31.5590,
+      "lng": 35.4732
+    },
+    "img": "./images/Dead_Sea_(Civ6).png",
+    "zoom": 10,
+    "desc": "The Dead Sea is a salt lake bordered by Jordan to the east and Israel and the West Bank to the west. It lies in the Jordan Rift Valley, and its main tributary is the Jordan River. Its surface and shores are 430.5 metres (1,412 ft) below sea level, Earth's lowest elevation on land. It is 304 m (997 ft) deep, the deepest hypersaline lake in the world. With a salinity of 342 g/kg, or 34.2% (in 2011), it is one of the world's saltiest bodies of water – 9.6 times as salty as the ocean – and has a density of 1.24 kg/litre, which makes swimming similar to floating."
+  },
+  {
+    "name": "Delicate Arch",
+    "location": {
+      "lat": 38.7436,
+      "lng": -109.4993
+    },
+    "img": "./images/Delicate_arch_(Civ6).png",
+    "zoom": 16,
+    "desc": ""
+  },
+  {
+    "name": "Eye of the Sahara",
+    "location": {
+      "lat": 21.1269,
+      "lng": -11.4016
+    },
+    "img": "./images/Eye_of_the_Sahara_(Civ6).png",
+    "zoom": 10,
+    "desc": ""
+  },
+  {
+    "name": "Eyjafjallajökull",
+    "location": {
+      "lat": 63.6314,
+      "lng": -19.6083
+    },
+    "img": "./images/Eyjafjallajökull_(Civ6).png",
+    "zoom": 12,
+    "desc": ""
+  },
+  {
+    "name": "Galápagos Islands",
+    "location": {
+      "lat": -0.9538,
+      "lng": -90.9656
+    },
+    "img": "./images/Galápagos_Islands_(Civ6).png",
+    "zoom": 8,
+    "desc": ""
+  },
+  {
+    "name": "Giant's Causeway",
+    "location": {
+      "lat": 55.2408,
+      "lng": -6.5116
+    },
+    "img": "./images/Giant's_Causeway_(Civ6).png",
+    "zoom": 16,
+    "desc": ""
+  },
+  {
+    "name": "Gobustan",
+    "location": {
+      "lat": 40.1114,
+      "lng": 49.3784
+    },
+    "img": "./images/Gobustan_(Civ6).png",
+    "zoom": 16,
+    "desc": ""
+  },
+  {
+    "name": "Great Barrier Reef",
+    "location": {
+      "lat": -16.8871,
+      "lng": 147.6992
+    },
+    "img": "./images/Great_Barrier_Reef_(Civ6).png",
+    "zoom": 6,
+    "desc": ""
+  },
+  {
+    "name": "Ha Long Bay",
+    "location": {
+      "lat": 20.9101,
+      "lng": 107.1839
+    },
+    "img": "./images/Ha_Long_Bay_(Civ6).png",
+    "zoom": 11,
+    "desc": ""
+  },
+  {
+    "name": "Ik-Kil",
+    "location": {
+      "lat": 20.6610,
+      "lng": -88.5504
+    },
+    "img": "./images/Ik-Kil_(Civ6).png",
+    "zoom": 18,
+    "desc": ""
+  },
+  {
+    "name": "Kakadu",
+    "location": {
+      "lat": -13.0923,
+      "lng": 132.3938
+    },
+    "img": "./images/Kakadu_(Civ6).png",
+    "zoom": 15,
+    "desc": ""
+  },
+  {
+    "name": "Lake Retba",
+    "location": {
+      "lat": 14.8388,
+      "lng": -17.2441
+    },
+    "img": "./images/Lake_Retba_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  },
+  {
+    "name": "Lysefjord",
+    "location": {
+      "lat": 59.0049,
+      "lng": 6.3168
+    },
+    "img": "./images/Lysefjord_(Civ6).png",
+    "zoom": 11,
+    "desc": ""
+  },
+  {
+    "name": "Mato Tipila",
+    "location": {
+      "lat": 44.5908,
+      "lng": -104.7151
+    },
+    "img": "./images/Mato_Tipila_(Civ6).png",
+    "zoom": 16,
+    "desc": ""
+  },
+  {
+    "name": "Matterhorn",
+    "location": {
+      "lat": 45.9766,
+      "lng": 7.6585
+    },
+    "img": "./images/Matterhorn_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  },
+  {
+    "name": "Mount Everest",
+    "location": {
+      "lat": 27.9881,
+      "lng": 86.9250
+    },
+    "img": "./images/Mount_Everest_(Civ6).png",
+    "zoom": 13,
+    "desc": ""
+  },
+  {
+    "name": "Mount Kilimanjaro",
+    "location": {
+      "lat": -3.0674,
+      "lng": 37.3556
+      },
+    "img": "./images/Mount_Kilimanjaro_(Civ6).png",
+    "zoom": 13,
+    "desc": ""
+  },
+  {
+    "name": "Mount Roraima",
+    "location": {
+      "lat": 5.1316,
+      "lng": -60.7585
+      },
+    "img": "./images/Mount_Roraima_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  },
+  {
+    "name": "Mount Vesuvius",
+    "location": {
+      "lat": 40.8224,
+      "lng": 14.4289
+      },
+    "img": "./images/Mount_Vesuvius_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  },
+  {
+    "name": "Pamukkale",
+    "location": {
+      "lat": 37.9215,
+      "lng": 29.1229
+      },
+    "img": "./images/Pamukkale_(Civ6).png",
+    "zoom": 17,
+    "desc": ""
+  },
+  {
+    "name": "Pantanal",
+    "location": {
+      "lat": -17.6585,
+      "lng": -57.4317
+    },
+    "img": "./images/Pantanal_(Civ6).png",
+    "zoom": 12,
+    "desc": ""
+  },
+  {
+    "name": "Pinnacles",
+    "location": {
+      "lat": -30.5910,
+      "lng": 115.1602
+    },
+    "img": "./images/Pinnacles_(Civ6).png",
+    "zoom": 17,
+    "desc": ""
+  },
+  {
+    "name": "Piopiotahi",
+    "location": {
+      "lat": -44.6199,
+      "lng": 167.8688
+    },
+    "img": "./images/Piopiotahi_(Civ6).png",
+    "zoom": 11.9,
+    "desc": ""
+  },
+  {
+    "name": "Sahara el Beyda",
+    "location": {
+      "lat": 27.3066,
+      "lng": 28.1832
+    },
+    "img": "./images/Sahara_el_Beyda_(Civ6).png",
+    "zoom": 16,
+    "desc": ""
+  },
+  {
+    "name": "Torres del Paine",
+    "location": {
+      "lat": -50.9723,
+      "lng": -73.1717
+    },
+    "img": "./images/Torres_del_Paine_(Civ6).png",
+    "zoom": 11,
+    "desc": ""
+  },
+  {
+    "name": "Tsingy de Bemaraha",
+    "location": {
+      "lat": -18.9278,
+      "lng": 44.8286
+    },
+    "img": "./images/Tsingy_de_Bemaraha_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  },
+  {
+    "name": "Ubsunur Hollow",
+    "location": {
+      "lat": 50.3550,
+      "lng": 92.7029
+    },
+    "img": "./images/Ubsunur_Hollow_(Civ6).png",
+    "zoom": 9,
+    "desc": ""
+  },
+  {
+    "name": "Uluru",
+    "location": {
+      "lat": -25.3444,
+      "lng": 131.0369
+    },
+    "img": "./images/Uluru_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  },
+  {
+    "name": "Yosemite",
+    "location": {
+      "lat": 37.8651,
+      "lng": -119.5383
+    },
+    "img": "./images/Yosemite_(Civ6).png",
+    "zoom": 12,
+    "desc": ""
+  },
+  {
+    "name": "Zhangye Danxia",
+    "location": {
+      "lat": 38.9373,
+      "lng": 100.0459
+    },
+    "img": "./images/Zhangye_Danxia_(Civ6).png",
+    "zoom": 14,
+    "desc": ""
+  }
+]

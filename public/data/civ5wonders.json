@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Barringer Crater",
+    "location": {
+      "lat": 35.0277,
+      "lng": -111.0221
+    },
+    "img": "./images/Barringer_Crater_(Civ5).png",
+    "zoom": 15,
+    "desc": "butts"
+  },
+  {
+    "name": "Cerro de Potosi",
+    "location": {
+      "lat": -19.6189,
+      "lng": -65.7500
+    },
+    "img": "./images/Cerro_de_Potosi_(Civ5).png",
+    "zoom": 17,
+    "desc": "butts"
+  },
+  {
+    "name": "Grand Mesa",
+    "location": {
+      "lat": 39.0666,
+      "lng": -107.9367
+    },
+    "img": "./images/Grand_Mesa_(Civ5).png",
+    "zoom": 11,
+    "desc": "butts"
+  },
+  {
+    "name": "Great Barrier Reef",
+    "location": {
+        "lat": -16.8871,
+        "lng": 147.6992
+    },
+    "img": "./images/Great_Barrier_Reef_(Civ5).png",
+    "zoom": 6,
+    "desc": ""
+  },
+  {
+    "name": "Krakatoa",
+    "location": {
+      "lat": -6.1025,
+      "lng": 105.4235
+    },
+    "img": "./images/Krakatoa_(Civ5).png",
+    "zoom": 15,
+    "desc": "butts"
+  },
+  {
+    "name": "Lake Victoria",
+    "location": {
+      "lat": -1.0786,
+      "lng": 32.9456
+    },
+    "img": "./images/Lake_Victoria_(Civ5).png",
+    "zoom": 8,
+    "desc": "butts"
+  },
+  {
+    "name": "Mount Fuji",
+    "location": {
+      "lat": 35.3628,
+      "lng": 138.7306
+    },
+    "img": "./images/Mt._Fuji_(Civ5).png",
+    "zoom": 13,
+    "desc": "butts"
+  },
+  {
+    "name": "Mount Kailash",
+    "location": {
+      "lat": 31.0673,
+      "lng": 81.3119
+    },
+    "img": "./images/Mt._Kailash_(Civ5).png",
+    "zoom": 16,
+    "desc": "butts"
+  },
+  {
+    "name": "Mount Kilimanjaro",
+    "location": {
+      "lat": -3.0674,
+      "lng": 37.3556
+      },
+    "img": "./images/Mt._Kilimanjaro_(Civ5).png",
+    "zoom": 13,
+    "desc": ""
+  },
+  {
+    "name": "Mount Sinai",
+    "location": {
+      "lat": 28.5392,
+      "lng": 33.9749
+    },
+    "img": "./images/Mt._Sinai_(Civ5).png",
+    "zoom": 16,
+    "desc": "butts"
+  },
+  {
+    "name": "Old Faithful",
+    "location": {
+      "lat": 44.4604,
+      "lng": -110.8281
+    },
+    "img": "./images/Old_Faithful_(Civ5).png",
+    "zoom": 17.25,
+    "desc": "butts"
+  },
+  {
+    "name": "Rock of Gibralter",
+    "location": {
+      "lat": 36.1440,
+      "lng": -5.3417
+    },
+    "img": "./images/Rock_of_Gibraltar_(Civ5).png",
+    "zoom": 16.5,
+    "desc": "butts"
+  },
+  {
+    "name": "Sri Pada",
+    "location": {
+      "lat": 6.8096,
+      "lng": 80.4993
+    },
+    "img": "./images/Sri_Pada_(Civ5).png",
+    "zoom": 16.5,
+    "desc": "butts"
+  },
+  {
+    "name": "Uluru",
+    "location": {
+      "lat": -25.3444,
+      "lng": 131.0369
+    },
+    "img": "./images/Uluru_(Civ5).png",
+    "zoom": 14,
+    "desc": ""
+  }
+]

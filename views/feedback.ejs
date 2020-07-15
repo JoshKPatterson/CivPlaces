@@ -1,0 +1,12 @@
+<%- include("partials/header") %>
+  <h2>Submit Feedback</h2>
+  <div id='form-wrapper'>
+    <form action="/" method="POST">
+      <p>Please provide your feedback in the given box below. If it is a bug, please describe the bug in detail and provide details on how to recreate the bug.</p>
+      <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+      <button>Submit</button>
+    </form>
+    <button onclick="window.location.href='/'">Go Back</button>
+  </div>
+  
+<%- include("partials/footer") %>
