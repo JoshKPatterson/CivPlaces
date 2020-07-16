@@ -10,9 +10,9 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true })); 
 app.use(express.static(__dirname + "/public"));
-const allwonders = JSON.parse(fs.readFileSync('/app/public/data/allwonders.JSON', 'utf-8'));
-const civ6wonders = JSON.parse(fs.readFileSync('/app/public/data/civ6wonders.JSON', 'utf-8'));
-const civ5wonders = JSON.parse(fs.readFileSync('/app/public/data/civ5wonders.JSON', 'utf-8'));
+const allwonders = JSON.parse(fs.readFileSync('./public/data/allwonders.JSON', 'utf-8'));
+const civ6wonders = JSON.parse(fs.readFileSync('./public/data/civ6wonders.JSON', 'utf-8'));
+const civ5wonders = JSON.parse(fs.readFileSync('./public/data/civ5wonders.JSON', 'utf-8'));
 // console.log(civ6wonders);
 // console.log(civ5wonders);
 
