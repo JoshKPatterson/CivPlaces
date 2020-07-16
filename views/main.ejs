@@ -58,7 +58,6 @@
               </ul>
               <button class="btn" onclick="drop2()"><h2>Civ VI Wonders</h2></button>
               <ul class='DDcontent' id='c6WondersDD'>
-                
                 <% civ6wonders.forEach(wonders => { %>
                   <li>
                     <div class="placeCard" onclick='moveMap(<%= wonders.location.lat %>, <%= wonders.location.lng %>, <%= wonders.zoom %>)'>
@@ -67,11 +66,9 @@
                     </div>
                   </li>
                 <% }) %>
-
               </ul>
               <button class="btn" onclick="drop3()"><h2>Civ V Wonders</h2></button>
               <ul class='DDcontent' id='c5WondersDD'>
-                
                 <% civ5wonders.forEach(wonders => { %>
                   <li>
                     <div class="placeCard" onclick='moveMap(<%= wonders.location.lat %>, <%= wonders.location.lng %>, <%= wonders.zoom %>)'>
@@ -80,15 +77,12 @@
                     </div>
                   </li>
                 <% }) %>
-
               </ul>
             </div>
           </div>
           <button id='helpButton' onclick="openModal()">Help</button>
-
         </div>
       </div>
-  
     </div>
     <div id="map"></div>
     <script src="./scripts/mainScript.js"></script>
