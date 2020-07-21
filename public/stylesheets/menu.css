@@ -80,11 +80,14 @@ textarea {
 /* ********************************************************************* */
 /* Responsive Style/Media Queries */
 /* Mobile */
-/* @media (max-width: 800px){
-  textarea {
+@media (max-width: 800px){
+  /* textarea {
     height: 50%;
+  } */
+  body {
+    background-color: red;
   }
-} */
+}
 
 /* Laptop/Desktop */
 /* @media (min-width:801px){
