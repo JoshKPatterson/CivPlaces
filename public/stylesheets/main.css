@@ -269,7 +269,7 @@ ul.showDisplayOpacity {
   font-weight: 100;
   pointer-events: auto;
   position: absolute;
-  /* margin: 3vh 10px 3vh 0px; */
+  margin-right: 5px;
 }
 #close:hover, #close:focus {
   color: #000;
@@ -284,7 +284,7 @@ ul.showDisplayOpacity {
   border-top-right-radius: inherit;
   display: flex;
   flex-direction: row-reverse;
-  align-items: end;
+  align-items: center;
 }
 
 .modal-content h1 {
