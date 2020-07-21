@@ -80,27 +80,15 @@ textarea {
 /* ********************************************************************* */
 /* Responsive Style/Media Queries */
 /* Mobile */
-@media (max-width: 800px){
-  /* textarea {
+@media (max-width: 1000px){
+  textarea {
     height: 50%;
-  } */
-  h1 {
-    background-color: red;
   }
 }
 
 /* Laptop/Desktop */
-@media (min-width:801px) and (max-width:1000px) {
-  /* #form-wrapper {
+@media (min-width:1001px){
+  #form-wrapper {
     width: 40%;
-  } */
-  h1 {
-    background-color: green;
-  }
-}
-
-@media (min-width:1001px) {
-  h1 {
-    background-color: yellow;
   }
 }
