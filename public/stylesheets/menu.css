@@ -74,20 +74,21 @@ p {
 textarea {
   resize: none;
   width: 100%;
+  height: 50%;
 }
 
 /* ********************************************************************* */
 /* Responsive Style/Media Queries */
 /* Mobile */
-@media (max-width: 800px){
+/* @media (max-width: 800px){
   textarea {
     height: 50%;
   }
-}
+} */
 
 /* Laptop/Desktop */
-@media (min-width:801px){
+/* @media (min-width:801px){
   #form-wrapper {
     width: 40%;
   }
-}
+} */
