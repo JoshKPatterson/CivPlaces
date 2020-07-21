@@ -90,7 +90,7 @@ textarea {
 }
 
 /* Laptop/Desktop */
-@media (min-width:801px) and (max-width:900px) {
+@media (min-width:801px) and (max-width:1000px) {
   /* #form-wrapper {
     width: 40%;
   } */
@@ -99,7 +99,7 @@ textarea {
   }
 }
 
-@media (min-width:901px) {
+@media (min-width:1001px) {
   h1 {
     background-color: yellow;
   }
