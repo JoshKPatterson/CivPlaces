@@ -269,7 +269,7 @@ ul.showDisplayOpacity {
   font-weight: 100;
   pointer-events: auto;
   position: absolute;
-  margin: 3vh 10px 3vh 0px;
+  /* margin: 3vh 10px 3vh 0px; */
 }
 #close:hover, #close:focus {
   color: #000;
@@ -283,7 +283,7 @@ ul.showDisplayOpacity {
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
   align-items: end;
 }
 
