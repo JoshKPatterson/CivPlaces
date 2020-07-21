@@ -90,8 +90,11 @@ textarea {
 }
 
 /* Laptop/Desktop */
-/* @media (min-width:801px){
-  #form-wrapper {
+@media (min-width:801px){
+  /* #form-wrapper {
     width: 40%;
+  } */
+  h1 {
+    background-color: green;
   }
-} */
+}
