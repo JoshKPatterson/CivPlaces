@@ -16,7 +16,7 @@ Civplaces was intended to demonstrate the ability to use certain technologies in
 
 # Usage
 
-CivPlaces is a straightforward, easy to use application. Simply visit https://www.civplaces.com to access the application, and from there you can click or tap on one of the blue buttons in the pop up menu. The Wonders from that category will appear, and you can select the Wonder you wish to be taken to.
+CivPlaces is a straightforward, easy to use application. Simply visit http://www.civplaces.com to access the application, and from there you can click or tap on one of the blue buttons in the pop up menu. The Wonders from that category will appear, and you can select the Wonder you wish to be taken to.
 
 # Development
 
