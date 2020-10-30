@@ -14,7 +14,7 @@ function initMap(){
 }
 function moveMap(lat, lng, zoom){
   map = new google.maps.Map(mapDiv, {zoom: zoom, mapTypeId: 'satellite', disableDefaultUI: true, center: {lat: lat, lng: lng}})
-  // hamburger();
+  hamburger();
 }
 
 function openModal(){
