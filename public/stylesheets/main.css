@@ -420,6 +420,7 @@ div.modal-content p:last-of-type {
   #container {
     margin: 10px 0 0 10px;
     width: 25vw;
+    min-width: 300px;
   }
   h1 {
     font-size: 3rem;
